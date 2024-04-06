@@ -22,6 +22,6 @@ try {
     console.log(`No listo tonoto ERROR: ${error}`);
 }
 
-app.listen( 8080, ()=>{
-    console.log('El server está listo tonoto: http://localhost:8080/');
+app.listen( 8080,"172.21.192.1", ()=>{
+    console.log('El server está listo tonoto: http://172.21.192.1:8080/');
 })
